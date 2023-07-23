@@ -1,4 +1,4 @@
-This is FFXIV Market Tools (FFMT)
+# FFXIV Market Tools (FFMT)
 
 A  small project I've developed to advise in the most profitable market decisions based on the Universalis API and Websocket.
 
