@@ -1,0 +1,33 @@
+####### WS_WORKER SERVER DIR #######
+docker/ws_worker/server/__pycache__/*
+docker/ws_worker/server/logs/*.log
+docker/ws_worker/server/logs/action/*.log
+docker/ws_worker/server/logs/error/*.log
+docker/ws_worker/server/logs/system/*.log
+docker/ws_worker/sales_importer/python/__pycache__/*
+
+docker/redis/server/__pycache__/*
+docker/redis/server/logs/*.log
+docker/redis/server/logs/action/*.log
+docker/redis/server/logs/error/*.log
+docker/redis/server/logs/system/*.log
+
+docker/scylla/persistent
+
+.vscode/*
+
+####### MARIADB DOCKER DIR #######
+docker/mariadb/var/*
+
+####### ROOT DIR #######
+/*.bat
+/*.sh
+/*.ps1
+
+####### FILE TYPES #######
+*.db
+*.rdb
+*.aof
+*.aof.manifest
+*.log
+*.status
